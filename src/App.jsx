@@ -5,7 +5,6 @@ const App = () => {
     const test = async () => {
       try {
         const url = getFormatedUrl("/");
-        console.log(url);
         const res = await fetch(url);
         const data = await res.json();
         console.log(data);
