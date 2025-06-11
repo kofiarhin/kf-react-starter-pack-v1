@@ -1,3 +1,5 @@
+Here’s the final README.md with a “Running the Dev Server” section added right after the install step. Clean, clear, no fluff.
+
 # React + Vite Starter Pack
 
 A modern, minimal frontend starter template using React and Vite — fast, lightweight, and fully configured for unit and component testing.
@@ -38,3 +40,49 @@ A modern, minimal frontend starter template using React and Vite — fast, light
 ```bash
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+Install Dependencies
+
+npm install
+
+Run the Dev Server
+
+npm run dev
+
+This will start the Vite development server at http://localhost:5173/ by default.
+
+Running Tests
+
+npm run test
+
+Runs all unit and component tests located in the __test__ folder using Vitest and React Testing Library.
+
+Project Structure
+
+src/
+├── assets/           # Static files
+├── components/       # Reusable components
+├── hooks/            # Custom React hooks
+├── pages/            # Route-level pages
+├── lib/              # Utilities, helpers, services
+├── __test__/         # All test files live here
+├── App.jsx           # Root component
+└── main.jsx          # Entry point
+
+Scripts
+
+Command	Description
+npm run dev	Start the dev server
+npm run build	Build for production
+npm run preview	Preview the production build
+npm run test	Run all tests in __test__
+npm run lint	Run ESLint
+npm run format	Run Prettier
+
+License
+
+MIT
+
+---
+
+If you’re planning to add HMR debugging, mock API support, or hot reload config — I can drop that in next.
