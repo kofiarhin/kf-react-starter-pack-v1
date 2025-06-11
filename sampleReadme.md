@@ -4,6 +4,12 @@ A modern, minimal frontend starter template using React and Vite — fast, light
 
 ---
 
+## 🚀 Live Demo
+
+👉 [View Live Demo](https://your-live-demo-url.com)
+
+---
+
 ## Features
 
 - ⚡️ Super fast bundling with Vite
