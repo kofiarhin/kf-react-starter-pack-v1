@@ -1,4 +1,4 @@
-Here’s the final README.md with a “Running the Dev Server” section added right after the install step. Clean, clear, no fluff.
+    Here’s the final README.md with a “Running the Dev Server” section added right after the install step. Clean, clear, no fluff.
 
 # React + Vite Starter Pack
 
@@ -83,6 +83,4 @@ License
 
 MIT
 
----
-
-If you’re planning to add HMR debugging, mock API support, or hot reload config — I can drop that in next.
+-
